@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>add data</title>
+</head>
+
+<body>
+    <a href="index.php">Admin</a>
+    <br><br>
+
+
+    <h1>Dog Application Form</h1>
+    <div class="form_container">
+    <form action="add.php" method="post" name="admin"><hr>
+        <h3>Owner's Information</h3>
+        <label for="name">Owner's Full Name:</label>
+        <input type="text" id="name" style="width:150px;" required><br><br>
+        <label for="address">Owner's Address:</label>
+        <textarea name="address" id="address" cols="30" rows="5"></textarea><br><br>
+        <label for="contact number">Contact number:</label>
+        <input type="text" id="contact number" style="width:150px;" required><br><br>
+        <h3>Dog Information</h3>
+        <label for="name">Dog Name:</label>
+        <input type="text" id="name" style="width:150px;" required><br><br>
+        <label for="age">Dog Age:</label>
+        <input type="text" id="age" style="width:150px;" required><br><br>
+        <label for="breed">Dog Breed:</label>
+        <input type="text" id="breed" style="width:150px;" required><br><br>
+        <label for="gender">Dog Gender:</label>
+        <input type="text" id="gender" style="width:150px;" required><br><br>
+        <hr>
+        <input type="reset">
+        <input type="submit" name="add" value="Add">
+    </form>
+    </div>
+</body>
+</html>
